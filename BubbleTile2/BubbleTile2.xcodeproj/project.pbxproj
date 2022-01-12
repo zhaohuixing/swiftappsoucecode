@@ -1,0 +1,1607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD02D31F24679B1E009288EE /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31A24679B1E009288EE /* SKPickerRender.swift */; };
+		AD02D32024679B1E009288EE /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31A24679B1E009288EE /* SKPickerRender.swift */; };
+		AD02D32124679B1E009288EE /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31A24679B1E009288EE /* SKPickerRender.swift */; };
+		AD02D32224679B1E009288EE /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31A24679B1E009288EE /* SKPickerRender.swift */; };
+		AD02D32324679B1E009288EE /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31B24679B1E009288EE /* SKPickerTypes.swift */; };
+		AD02D32424679B1E009288EE /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31B24679B1E009288EE /* SKPickerTypes.swift */; };
+		AD02D32524679B1E009288EE /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31B24679B1E009288EE /* SKPickerTypes.swift */; };
+		AD02D32624679B1E009288EE /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31B24679B1E009288EE /* SKPickerTypes.swift */; };
+		AD02D32724679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */; };
+		AD02D32824679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */; };
+		AD02D32924679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */; };
+		AD02D32A24679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */; };
+		AD02D32B24679B1E009288EE /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31D24679B1E009288EE /* SKPicker.swift */; };
+		AD02D32C24679B1E009288EE /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31D24679B1E009288EE /* SKPicker.swift */; };
+		AD02D32D24679B1E009288EE /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31D24679B1E009288EE /* SKPicker.swift */; };
+		AD02D32E24679B1E009288EE /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31D24679B1E009288EE /* SKPicker.swift */; };
+		AD02D32F24679B1E009288EE /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31E24679B1E009288EE /* SKPicker+extension.swift */; };
+		AD02D33024679B1E009288EE /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31E24679B1E009288EE /* SKPicker+extension.swift */; };
+		AD02D33124679B1E009288EE /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31E24679B1E009288EE /* SKPicker+extension.swift */; };
+		AD02D33224679B1E009288EE /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D31E24679B1E009288EE /* SKPicker+extension.swift */; };
+		AD08418B2473402400BF384E /* SKSHBlackToGray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418A2473402400BF384E /* SKSHBlackToGray.fsh */; };
+		AD08418C2473402400BF384E /* SKSHBlackToGray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418A2473402400BF384E /* SKSHBlackToGray.fsh */; };
+		AD08418D2473402400BF384E /* SKSHBlackToGray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418A2473402400BF384E /* SKSHBlackToGray.fsh */; };
+		AD08418F24738E8000BF384E /* SKSHEmboss.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418E24738E8000BF384E /* SKSHEmboss.fsh */; };
+		AD08419024738E8000BF384E /* SKSHEmboss.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418E24738E8000BF384E /* SKSHEmboss.fsh */; };
+		AD08419124738E8000BF384E /* SKSHEmboss.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08418E24738E8000BF384E /* SKSHEmboss.fsh */; };
+		AD08419324739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08419224739C4000BF384E /* SKSHShiftAnimation.fsh */; };
+		AD08419424739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08419224739C4000BF384E /* SKSHShiftAnimation.fsh */; };
+		AD08419524739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD08419224739C4000BF384E /* SKSHShiftAnimation.fsh */; };
+		AD09CD3E23E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */; };
+		AD09CD3F23E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */; };
+		AD09CD4023E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */; };
+		AD09CD4123E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */; };
+		AD09CD4223E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */; };
+		AD09CD4323E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */; };
+		AD09CD4423E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */; };
+		AD09CD4523E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */; };
+		AD09CD4623E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */; };
+		AD09CD4723E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */; };
+		AD09CD4823E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */; };
+		AD09CD4923E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */; };
+		AD09CD4A23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */; };
+		AD09CD4B23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */; };
+		AD09CD4C23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */; };
+		AD09CD4D23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */; };
+		AD09CD4E23E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */; };
+		AD09CD4F23E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */; };
+		AD09CD5023E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */; };
+		AD09CD5123E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */; };
+		AD09CD5223E64CCC006F4C3E /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */; };
+		AD09CD5323E64CCC006F4C3E /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */; };
+		AD09CD5423E64CCC006F4C3E /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */; };
+		AD09CD5523E64CCC006F4C3E /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */; };
+		AD09CD5623E64CCC006F4C3E /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */; };
+		AD09CD5723E64CCC006F4C3E /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */; };
+		AD09CD5823E64CCC006F4C3E /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */; };
+		AD09CD5923E64CCC006F4C3E /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */; };
+		AD09CD5A23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */; };
+		AD09CD5B23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */; };
+		AD09CD5C23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */; };
+		AD09CD5D23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */; };
+		AD09CD5E23E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */; };
+		AD09CD5F23E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */; };
+		AD09CD6023E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */; };
+		AD09CD6123E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */; };
+		AD09CD6223E64CCC006F4C3E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */; };
+		AD09CD6323E64CCC006F4C3E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */; };
+		AD09CD6423E64CCC006F4C3E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */; };
+		AD09CD6523E64CCC006F4C3E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */; };
+		AD09CD6623E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */; };
+		AD09CD6723E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */; };
+		AD09CD6823E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */; };
+		AD09CD6923E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */; };
+		AD09CD6B23E6549E006F4C3E /* IPuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */; };
+		AD09CD6C23E6549E006F4C3E /* IPuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */; };
+		AD09CD6D23E6549E006F4C3E /* IPuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */; };
+		AD09CD6E23E6549E006F4C3E /* IPuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */; };
+		AD09CD7023E69A18006F4C3E /* GameScene+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */; };
+		AD09CD7123E69A18006F4C3E /* GameScene+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */; };
+		AD09CD7223E69A18006F4C3E /* GameScene+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */; };
+		AD21E86823D5261F00C40D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E86723D5261F00C40D09 /* AppDelegate.swift */; };
+		AD21E86A23D5261F00C40D09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E86923D5261F00C40D09 /* GameViewController.swift */; };
+		AD21E86D23D5261F00C40D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21E86B23D5261F00C40D09 /* Main.storyboard */; };
+		AD21E87023D5261F00C40D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21E86E23D5261F00C40D09 /* LaunchScreen.storyboard */; };
+		AD21E89223D5261F00C40D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E89123D5261F00C40D09 /* AppDelegate.swift */; };
+		AD21E89423D5261F00C40D09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E89323D5261F00C40D09 /* GameViewController.swift */; };
+		AD21E89723D5261F00C40D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21E89523D5261F00C40D09 /* Main.storyboard */; };
+		AD21E89A23D5261F00C40D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21E89823D5261F00C40D09 /* LaunchScreen.storyboard */; };
+		AD21E8A323D5261F00C40D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E8A223D5261F00C40D09 /* AppDelegate.swift */; };
+		AD21E8A523D5261F00C40D09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E8A423D5261F00C40D09 /* GameViewController.swift */; };
+		AD21E8A823D5261F00C40D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21E8A623D5261F00C40D09 /* Main.storyboard */; };
+		AD21E8AA23D5261F00C40D09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85C23D5261D00C40D09 /* Actions.sks */; };
+		AD21E8AB23D5261F00C40D09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85C23D5261D00C40D09 /* Actions.sks */; };
+		AD21E8AC23D5261F00C40D09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85C23D5261D00C40D09 /* Actions.sks */; };
+		AD21E8B123D5261F00C40D09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E85E23D5261D00C40D09 /* GameScene.swift */; };
+		AD21E8B323D5261F00C40D09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E85E23D5261D00C40D09 /* GameScene.swift */; };
+		AD21E8B423D5261F00C40D09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E85E23D5261D00C40D09 /* GameScene.swift */; };
+		AD21E8B523D5261F00C40D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85F23D5261F00C40D09 /* Assets.xcassets */; };
+		AD21E8B723D5261F00C40D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85F23D5261F00C40D09 /* Assets.xcassets */; };
+		AD21E8B823D5261F00C40D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21E85F23D5261F00C40D09 /* Assets.xcassets */; };
+		AD21E90023D52D0400C40D09 /* BkTileGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */; };
+		AD21E90323D52D0400C40D09 /* BkTileGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */; };
+		AD21E90423D52D0400C40D09 /* BkTileGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */; };
+		AD21E90523D52D0400C40D09 /* BkTileGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */; };
+		AD21E93523D52F5C00C40D09 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92023D52F5C00C40D09 /* GameController.swift */; };
+		AD21E93723D52F5C00C40D09 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92023D52F5C00C40D09 /* GameController.swift */; };
+		AD21E93823D52F5C00C40D09 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92023D52F5C00C40D09 /* GameController.swift */; };
+		AD21E93923D52F5C00C40D09 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92023D52F5C00C40D09 /* GameController.swift */; };
+		AD21E93A23D52F5C00C40D09 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92123D52F5C00C40D09 /* UndoManager.swift */; };
+		AD21E93C23D52F5C00C40D09 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92123D52F5C00C40D09 /* UndoManager.swift */; };
+		AD21E93D23D52F5C00C40D09 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92123D52F5C00C40D09 /* UndoManager.swift */; };
+		AD21E93E23D52F5C00C40D09 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92123D52F5C00C40D09 /* UndoManager.swift */; };
+		AD21E93F23D52F5C00C40D09 /* ShaffleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */; };
+		AD21E94123D52F5C00C40D09 /* ShaffleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */; };
+		AD21E94223D52F5C00C40D09 /* ShaffleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */; };
+		AD21E94323D52F5C00C40D09 /* ShaffleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */; };
+		AD21E94E23D52F5C00C40D09 /* CStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92723D52F5C00C40D09 /* CStack.swift */; };
+		AD21E95023D52F5C00C40D09 /* CStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92723D52F5C00C40D09 /* CStack.swift */; };
+		AD21E95123D52F5C00C40D09 /* CStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92723D52F5C00C40D09 /* CStack.swift */; };
+		AD21E95223D52F5C00C40D09 /* CStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92723D52F5C00C40D09 /* CStack.swift */; };
+		AD21E95323D52F5C00C40D09 /* CSingleLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92823D52F5C00C40D09 /* CSingleLList.swift */; };
+		AD21E95523D52F5C00C40D09 /* CSingleLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92823D52F5C00C40D09 /* CSingleLList.swift */; };
+		AD21E95623D52F5C00C40D09 /* CSingleLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92823D52F5C00C40D09 /* CSingleLList.swift */; };
+		AD21E95723D52F5C00C40D09 /* CSingleLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92823D52F5C00C40D09 /* CSingleLList.swift */; };
+		AD21E95823D52F5C00C40D09 /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92923D52F5C00C40D09 /* CQueue.swift */; };
+		AD21E95A23D52F5C00C40D09 /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92923D52F5C00C40D09 /* CQueue.swift */; };
+		AD21E95B23D52F5C00C40D09 /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92923D52F5C00C40D09 /* CQueue.swift */; };
+		AD21E95C23D52F5C00C40D09 /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92923D52F5C00C40D09 /* CQueue.swift */; };
+		AD21E95D23D52F5C00C40D09 /* SingleLLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */; };
+		AD21E95F23D52F5C00C40D09 /* SingleLLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */; };
+		AD21E96023D52F5C00C40D09 /* SingleLLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */; };
+		AD21E96123D52F5C00C40D09 /* SingleLLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */; };
+		AD21E96223D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */; };
+		AD21E96423D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */; };
+		AD21E96523D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */; };
+		AD21E96623D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */; };
+		AD21E96723D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */; };
+		AD21E96923D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */; };
+		AD21E96A23D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */; };
+		AD21E96B23D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */; };
+		AD21E96C23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */; };
+		AD21E96E23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */; };
+		AD21E96F23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */; };
+		AD21E97023D52F5C00C40D09 /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */; };
+		AD21E97123D52F5C00C40D09 /* ChipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93023D52F5C00C40D09 /* ChipData.swift */; };
+		AD21E97323D52F5C00C40D09 /* ChipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93023D52F5C00C40D09 /* ChipData.swift */; };
+		AD21E97423D52F5C00C40D09 /* ChipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93023D52F5C00C40D09 /* ChipData.swift */; };
+		AD21E97523D52F5C00C40D09 /* ChipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93023D52F5C00C40D09 /* ChipData.swift */; };
+		AD21E97623D52F5C00C40D09 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93123D52F5C00C40D09 /* GameConstants.swift */; };
+		AD21E97823D52F5C00C40D09 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93123D52F5C00C40D09 /* GameConstants.swift */; };
+		AD21E97923D52F5C00C40D09 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93123D52F5C00C40D09 /* GameConstants.swift */; };
+		AD21E97A23D52F5C00C40D09 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93123D52F5C00C40D09 /* GameConstants.swift */; };
+		AD21E97B23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */; };
+		AD21E97D23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */; };
+		AD21E97E23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */; };
+		AD21E97F23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */; };
+		AD21E98023D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */; };
+		AD21E98223D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */; };
+		AD21E98323D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */; };
+		AD21E98423D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */; };
+		AD21E98523D52F5C00C40D09 /* GamePlayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */; };
+		AD21E98723D52F5C00C40D09 /* GamePlayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */; };
+		AD21E98823D52F5C00C40D09 /* GamePlayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */; };
+		AD21E98923D52F5C00C40D09 /* GamePlayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */; };
+		AD21E99123D5311D00C40D09 /* BubbleSquarePuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E98A23D5311C00C40D09 /* BubbleSquarePuzzleTests.swift */; };
+		AD21E99323D5311D00C40D09 /* HexagonPuzzleShaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E98C23D5311D00C40D09 /* HexagonPuzzleShaffleTests.swift */; };
+		AD21E99523D5311D00C40D09 /* BubbleTrianglePuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E98E23D5311D00C40D09 /* BubbleTrianglePuzzleTests.swift */; };
+		AD21E99623D5311D00C40D09 /* BubbleDiamondPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E98F23D5311D00C40D09 /* BubbleDiamondPuzzleTests.swift */; };
+		AD21E99723D5311D00C40D09 /* BubbleHexagonPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E99023D5311D00C40D09 /* BubbleHexagonPuzzleTests.swift */; };
+		AD221F0123FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */; };
+		AD221F0223FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */; };
+		AD221F0323FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */; };
+		AD221F0423FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */; };
+		AD57BB6D2441106D0003A336 /* IEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57BB6C2441106D0003A336 /* IEventHandler.swift */; };
+		AD57BB6E2441106D0003A336 /* IEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57BB6C2441106D0003A336 /* IEventHandler.swift */; };
+		AD57BB6F2441106D0003A336 /* IEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57BB6C2441106D0003A336 /* IEventHandler.swift */; };
+		AD57BB702441106D0003A336 /* IEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57BB6C2441106D0003A336 /* IEventHandler.swift */; };
+		AD5D0B50240206B90089170F /* PuzzleChip+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */; };
+		AD5D0B512402083B0089170F /* PuzzleChip+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */; };
+		AD5D0B522402083C0089170F /* PuzzleChip+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */; };
+		AD5D0B532402083C0089170F /* PuzzleChip+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */; };
+		AD5EC6C623F2500800406E7A /* DiamondPuzzleShaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EC6C523F2500800406E7A /* DiamondPuzzleShaffleTests.swift */; };
+		AD5EC6C823F2551200406E7A /* TrianglePuzzleShaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EC6C723F2551200406E7A /* TrianglePuzzleShaffleTests.swift */; };
+		AD5EC6CA23F258B600406E7A /* SquarePuzzleShaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EC6C923F258B600406E7A /* SquarePuzzleShaffleTests.swift */; };
+		AD631CDA2400D38100383766 /* GameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CD92400D38100383766 /* GameLayout.swift */; };
+		AD631CDB2400F55000383766 /* GameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CD92400D38100383766 /* GameLayout.swift */; };
+		AD631CDC2400F55100383766 /* GameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CD92400D38100383766 /* GameLayout.swift */; };
+		AD631CDD2400F55200383766 /* GameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CD92400D38100383766 /* GameLayout.swift */; };
+		AD631CDF2400F55C00383766 /* PuzzleChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CDE2400F55C00383766 /* PuzzleChip.swift */; };
+		AD631CE02400F55F00383766 /* PuzzleChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CDE2400F55C00383766 /* PuzzleChip.swift */; };
+		AD631CE12400F56000383766 /* PuzzleChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CDE2400F55C00383766 /* PuzzleChip.swift */; };
+		AD631CE22400F56000383766 /* PuzzleChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD631CDE2400F55C00383766 /* PuzzleChip.swift */; };
+		AD6A2A08247A29FC00372BA1 /* WinAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A2A07247A29FC00372BA1 /* WinAnimationController.swift */; };
+		AD6A2A09247A29FC00372BA1 /* WinAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A2A07247A29FC00372BA1 /* WinAnimationController.swift */; };
+		AD6A2A0A247A29FC00372BA1 /* WinAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A2A07247A29FC00372BA1 /* WinAnimationController.swift */; };
+		AD6BA0BC240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */; };
+		AD6BA0BD240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */; };
+		AD6BA0BE240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */; };
+		AD6BA0BF240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */; };
+		AD6BA0C3240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */; };
+		AD6BA0C4240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */; };
+		AD6BA0C5240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */; };
+		AD6BA0C6240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */; };
+		AD6BA0C7240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */; };
+		AD6BA0C8240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */; };
+		AD6BA0C9240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */; };
+		AD6BA0CA240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */; };
+		AD6BA0CB240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */; };
+		AD6BA0CC240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */; };
+		AD6BA0CD240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */; };
+		AD6BA0CE240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */; };
+		AD7F6C7C2474265A005748DC /* SKSHSemiOpque.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD7F6C7B2474265A005748DC /* SKSHSemiOpque.fsh */; };
+		AD7F6C7D24742667005748DC /* SKSHSemiOpque.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD7F6C7B2474265A005748DC /* SKSHSemiOpque.fsh */; };
+		AD7F6C7E24742668005748DC /* SKSHSemiOpque.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD7F6C7B2474265A005748DC /* SKSHSemiOpque.fsh */; };
+		AD7F6C8024742A34005748DC /* StepSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C7F24742A34005748DC /* StepSign.swift */; };
+		AD7F6C8124742A34005748DC /* StepSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C7F24742A34005748DC /* StepSign.swift */; };
+		AD7F6C8224742A34005748DC /* StepSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C7F24742A34005748DC /* StepSign.swift */; };
+		AD7F6C8424742ACC005748DC /* LayoutSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C8324742ACC005748DC /* LayoutSign.swift */; };
+		AD7F6C8524742ACC005748DC /* LayoutSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C8324742ACC005748DC /* LayoutSign.swift */; };
+		AD7F6C8624742ACC005748DC /* LayoutSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6C8324742ACC005748DC /* LayoutSign.swift */; };
+		AD8071F3245B93CC00FAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8071F1245B93CC00FAE003 /* Assets.xcassets */; };
+		AD807203245B990C00FAE003 /* BkTileRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD807202245B990C00FAE003 /* BkTileRed.sks */; };
+		AD807204245B990C00FAE003 /* BkTileRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD807202245B990C00FAE003 /* BkTileRed.sks */; };
+		AD807205245B990C00FAE003 /* BkTileRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD807202245B990C00FAE003 /* BkTileRed.sks */; };
+		AD807206245B9B6F00FAE003 /* BkTileRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD807202245B990C00FAE003 /* BkTileRed.sks */; };
+		AD96D52324423F8E007C2218 /* ToolBarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96D52224423F8E007C2218 /* ToolBarPanel.swift */; };
+		AD96D52424423F8E007C2218 /* ToolBarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96D52224423F8E007C2218 /* ToolBarPanel.swift */; };
+		AD96D52524423F8E007C2218 /* ToolBarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96D52224423F8E007C2218 /* ToolBarPanel.swift */; };
+		AD96D52624423F8E007C2218 /* ToolBarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96D52224423F8E007C2218 /* ToolBarPanel.swift */; };
+		AD9B568923FE2CDF009F2A2F /* RenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */; };
+		AD9B568A23FE2CDF009F2A2F /* RenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */; };
+		AD9B568B23FE2CDF009F2A2F /* RenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */; };
+		AD9B568C23FE2CDF009F2A2F /* RenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */; };
+		ADA9EC6D243ECD9900D28B30 /* TBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9EC6C243ECD9900D28B30 /* TBButton.swift */; };
+		ADA9EC6E243ECD9900D28B30 /* TBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9EC6C243ECD9900D28B30 /* TBButton.swift */; };
+		ADA9EC6F243ECD9900D28B30 /* TBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9EC6C243ECD9900D28B30 /* TBButton.swift */; };
+		ADBAAA492468AD4400D34BAD /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAAA482468AD4400D34BAD /* StringHelper.swift */; };
+		ADBAAA4A2468AD4400D34BAD /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAAA482468AD4400D34BAD /* StringHelper.swift */; };
+		ADBAAA4B2468AD4400D34BAD /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAAA482468AD4400D34BAD /* StringHelper.swift */; };
+		ADC2FC832471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC822471FCE100FBA6E3 /* SKSHWinAnimation.fsh */; };
+		ADC2FC842471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC822471FCE100FBA6E3 /* SKSHWinAnimation.fsh */; };
+		ADC2FC852471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC822471FCE100FBA6E3 /* SKSHWinAnimation.fsh */; };
+		ADC2FC8724720D9200FBA6E3 /* SKShaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8624720D9200FBA6E3 /* SKShaderHelper.swift */; };
+		ADC2FC8824720D9200FBA6E3 /* SKShaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8624720D9200FBA6E3 /* SKShaderHelper.swift */; };
+		ADC2FC8924720D9200FBA6E3 /* SKShaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8624720D9200FBA6E3 /* SKShaderHelper.swift */; };
+		ADC2FC8B24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8A24721B0A00FBA6E3 /* Shader+Extensions.swift */; };
+		ADC2FC8C24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8A24721B0A00FBA6E3 /* Shader+Extensions.swift */; };
+		ADC2FC8D24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2FC8A24721B0A00FBA6E3 /* Shader+Extensions.swift */; };
+		ADC2FC8F247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC8E247228A600FBA6E3 /* SKSHEmpty.fsh */; };
+		ADC2FC90247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC8E247228A600FBA6E3 /* SKSHEmpty.fsh */; };
+		ADC2FC91247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ADC2FC8E247228A600FBA6E3 /* SKSHEmpty.fsh */; };
+		ADC4C14D243D783A000BC24F /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4C14C243D783A000BC24F /* SettingScene.swift */; };
+		ADC4C14E243D783A000BC24F /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4C14C243D783A000BC24F /* SettingScene.swift */; };
+		ADC4C14F243D783A000BC24F /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4C14C243D783A000BC24F /* SettingScene.swift */; };
+		ADCAFDA124365ED40012E4ED /* GameSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */; };
+		ADCAFDA224365ED40012E4ED /* GameSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */; };
+		ADCAFDA324365ED40012E4ED /* GameSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */; };
+		ADCAFDA424365ED40012E4ED /* GameSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */; };
+		ADCF1BA92469A1B1000E25AC /* GameLayout+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */; };
+		ADCF1BAA2469A23A000E25AC /* GameLayout+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */; };
+		ADCF1BAB2469A23B000E25AC /* GameLayout+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */; };
+		ADCF1BAC2469A23B000E25AC /* GameLayout+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */; };
+		ADE107C523EF18BD008AF715 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C423EF18BD008AF715 /* Puzzle.swift */; };
+		ADE107C623EF2411008AF715 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C423EF18BD008AF715 /* Puzzle.swift */; };
+		ADE107C723EF2411008AF715 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C423EF18BD008AF715 /* Puzzle.swift */; };
+		ADE107C823EF2412008AF715 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C423EF18BD008AF715 /* Puzzle.swift */; };
+		ADE107CD23EF3618008AF715 /* PuzzleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C923EF3617008AF715 /* PuzzleSquare.swift */; };
+		ADE107CE23EF3618008AF715 /* PuzzleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C923EF3617008AF715 /* PuzzleSquare.swift */; };
+		ADE107CF23EF3618008AF715 /* PuzzleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C923EF3617008AF715 /* PuzzleSquare.swift */; };
+		ADE107D023EF3618008AF715 /* PuzzleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107C923EF3617008AF715 /* PuzzleSquare.swift */; };
+		ADE107D123EF3618008AF715 /* PuzzleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */; };
+		ADE107D223EF3618008AF715 /* PuzzleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */; };
+		ADE107D323EF3618008AF715 /* PuzzleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */; };
+		ADE107D423EF3618008AF715 /* PuzzleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */; };
+		ADE107D523EF3618008AF715 /* PuzzleDiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */; };
+		ADE107D623EF3618008AF715 /* PuzzleDiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */; };
+		ADE107D723EF3618008AF715 /* PuzzleDiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */; };
+		ADE107D823EF3618008AF715 /* PuzzleDiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */; };
+		ADE107D923EF3618008AF715 /* PuzzleHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */; };
+		ADE107DA23EF3618008AF715 /* PuzzleHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */; };
+		ADE107DB23EF3618008AF715 /* PuzzleHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */; };
+		ADE107DC23EF3618008AF715 /* PuzzleHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */; };
+		ADE107DD23EF3E7C008AF715 /* GameScene+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */; };
+		ADE107DE23EF3ED3008AF715 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21E85E23D5261D00C40D09 /* GameScene.swift */; };
+		ADE9592123FB0FDA0086A391 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592023FB0FDA0086A391 /* SceneController.swift */; };
+		ADE9592223FB0FDA0086A391 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592023FB0FDA0086A391 /* SceneController.swift */; };
+		ADE9592323FB0FDA0086A391 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592023FB0FDA0086A391 /* SceneController.swift */; };
+		ADE9592423FB0FDA0086A391 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592023FB0FDA0086A391 /* SceneController.swift */; };
+		ADE9592723FB712A0086A391 /* PuzzleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592623FB712A0086A391 /* PuzzleBoard.swift */; };
+		ADE9592823FB712A0086A391 /* PuzzleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592623FB712A0086A391 /* PuzzleBoard.swift */; };
+		ADE9592923FB712A0086A391 /* PuzzleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592623FB712A0086A391 /* PuzzleBoard.swift */; };
+		ADE9592A23FB712A0086A391 /* PuzzleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE9592623FB712A0086A391 /* PuzzleBoard.swift */; };
+		ADF3E41C24776C34006E58CB /* MotionIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3E41B24776C34006E58CB /* MotionIndicatorController.swift */; };
+		ADF3E41D24776C34006E58CB /* MotionIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3E41B24776C34006E58CB /* MotionIndicatorController.swift */; };
+		ADF3E41E24776C34006E58CB /* MotionIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3E41B24776C34006E58CB /* MotionIndicatorController.swift */; };
+		ADFA6DA4247C5A1A00E2AE14 /* GameRatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA6DA3247C5A1A00E2AE14 /* GameRatingController.swift */; };
+		ADFA6DA5247C5A1A00E2AE14 /* GameRatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA6DA3247C5A1A00E2AE14 /* GameRatingController.swift */; };
+		ADFA6DA6247C5A1A00E2AE14 /* GameRatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA6DA3247C5A1A00E2AE14 /* GameRatingController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD21E8D523D526A300C40D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD21E85723D5261D00C40D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD21E89F23D5261F00C40D09;
+			remoteInfo = "BubbleTile2 macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD21E8C223D5261F00C40D09 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD02D31A24679B1E009288EE /* SKPickerRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPickerRender.swift; sourceTree = "<group>"; };
+		AD02D31B24679B1E009288EE /* SKPickerTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPickerTypes.swift; sourceTree = "<group>"; };
+		AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPickerGestureRecognizer.swift; sourceTree = "<group>"; };
+		AD02D31D24679B1E009288EE /* SKPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPicker.swift; sourceTree = "<group>"; };
+		AD02D31E24679B1E009288EE /* SKPicker+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPicker+extension.swift"; sourceTree = "<group>"; };
+		AD08418A2473402400BF384E /* SKSHBlackToGray.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SKSHBlackToGray.fsh; sourceTree = "<group>"; };
+		AD08418E24738E8000BF384E /* SKSHEmboss.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SKSHEmboss.fsh; sourceTree = "<group>"; };
+		AD08419224739C4000BF384E /* SKSHShiftAnimation.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SKSHShiftAnimation.fsh; sourceTree = "<group>"; };
+		AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPuzzleScene.swift; sourceTree = "<group>"; };
+		AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GameScene+Extensions.swift"; path = "BubbleTile2 Shared/UI/GameScene+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		AD21E85C23D5261D00C40D09 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AD21E85E23D5261D00C40D09 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AD21E85F23D5261F00C40D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD21E86423D5261F00C40D09 /* BubbleTile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21E86723D5261F00C40D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21E86923D5261F00C40D09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD21E86C23D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21E86F23D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD21E87123D5261F00C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E87A23D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AD21E87C23D5261F00C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E88623D5261F00C40D09 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AD21E88823D5261F00C40D09 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AD21E88A23D5261F00C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E88F23D5261F00C40D09 /* BubbleTile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21E89123D5261F00C40D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21E89323D5261F00C40D09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD21E89623D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21E89923D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD21E89B23D5261F00C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E8A023D5261F00C40D09 /* BubbleTile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21E8A223D5261F00C40D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21E8A423D5261F00C40D09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD21E8A723D5261F00C40D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21E8A923D5261F00C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E8D023D526A300C40D09 /* BubbleTile2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTile2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21E8D423D526A300C40D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21E8DA23D52D0300C40D09 /* BubbleTile2 watchOS App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleTile2 watchOS App-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BkTileGreen.sks; sourceTree = "<group>"; };
+		AD21E92023D52F5C00C40D09 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		AD21E92123D52F5C00C40D09 /* UndoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndoManager.swift; sourceTree = "<group>"; };
+		AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaffleManager.swift; sourceTree = "<group>"; };
+		AD21E92723D52F5C00C40D09 /* CStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CStack.swift; sourceTree = "<group>"; };
+		AD21E92823D52F5C00C40D09 /* CSingleLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSingleLList.swift; sourceTree = "<group>"; };
+		AD21E92923D52F5C00C40D09 /* CQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQueue.swift; sourceTree = "<group>"; };
+		AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleLLNode.swift; sourceTree = "<group>"; };
+		AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrianglePuzzleHelper.swift; sourceTree = "<group>"; };
+		AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonPuzzleHelper.swift; sourceTree = "<group>"; };
+		AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleHelper.swift; sourceTree = "<group>"; };
+		AD21E93023D52F5C00C40D09 /* ChipData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipData.swift; sourceTree = "<group>"; };
+		AD21E93123D52F5C00C40D09 /* GameConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+		AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondPuzzleHelper.swift; sourceTree = "<group>"; };
+		AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePuzzleHelper.swift; sourceTree = "<group>"; };
+		AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayStep.swift; sourceTree = "<group>"; };
+		AD21E98A23D5311C00C40D09 /* BubbleSquarePuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSquarePuzzleTests.swift; sourceTree = "<group>"; };
+		AD21E98C23D5311D00C40D09 /* HexagonPuzzleShaffleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonPuzzleShaffleTests.swift; sourceTree = "<group>"; };
+		AD21E98E23D5311D00C40D09 /* BubbleTrianglePuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTrianglePuzzleTests.swift; sourceTree = "<group>"; };
+		AD21E98F23D5311D00C40D09 /* BubbleDiamondPuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDiamondPuzzleTests.swift; sourceTree = "<group>"; };
+		AD21E99023D5311D00C40D09 /* BubbleHexagonPuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleHexagonPuzzleTests.swift; sourceTree = "<group>"; };
+		AD21E99923D5328A00C40D09 /* BubbleTile2macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BubbleTile2macOS.xctestplan; sourceTree = "<group>"; };
+		AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleBoard+Extension.swift"; sourceTree = "<group>"; };
+		AD57BB6C2441106D0003A336 /* IEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEventHandler.swift; sourceTree = "<group>"; };
+		AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleChip+Extension.swift"; sourceTree = "<group>"; };
+		AD5EC6C523F2500800406E7A /* DiamondPuzzleShaffleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondPuzzleShaffleTests.swift; sourceTree = "<group>"; };
+		AD5EC6C723F2551200406E7A /* TrianglePuzzleShaffleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrianglePuzzleShaffleTests.swift; sourceTree = "<group>"; };
+		AD5EC6C923F258B600406E7A /* SquarePuzzleShaffleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePuzzleShaffleTests.swift; sourceTree = "<group>"; };
+		AD631CD92400D38100383766 /* GameLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLayout.swift; sourceTree = "<group>"; };
+		AD631CDE2400F55C00383766 /* PuzzleChip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleChip.swift; sourceTree = "<group>"; };
+		AD6A2A07247A29FC00372BA1 /* WinAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinAnimationController.swift; sourceTree = "<group>"; };
+		AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleBoard+Extension+Square.swift"; sourceTree = "<group>"; };
+		AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleBoard+Extension+Diamond.swift"; sourceTree = "<group>"; };
+		AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleBoard+Extension+Triangle.swift"; sourceTree = "<group>"; };
+		AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PuzzleBoard+Extension+Hexagon.swift"; sourceTree = "<group>"; };
+		AD7F6C7B2474265A005748DC /* SKSHSemiOpque.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SKSHSemiOpque.fsh; sourceTree = "<group>"; };
+		AD7F6C7F24742A34005748DC /* StepSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepSign.swift; sourceTree = "<group>"; };
+		AD7F6C8324742ACC005748DC /* LayoutSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSign.swift; sourceTree = "<group>"; };
+		AD8071F1245B93CC00FAE003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD807202245B990C00FAE003 /* BkTileRed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BkTileRed.sks; sourceTree = "<group>"; };
+		AD96D52224423F8E007C2218 /* ToolBarPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarPanel.swift; sourceTree = "<group>"; };
+		AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderHelper.swift; sourceTree = "<group>"; };
+		ADA50171249C1F8D00465634 /* BubbleTile2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubbleTile2.entitlements; sourceTree = "<group>"; };
+		ADA9EC6C243ECD9900D28B30 /* TBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBButton.swift; sourceTree = "<group>"; };
+		ADBAAA482468AD4400D34BAD /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		ADC2FC822471FCE100FBA6E3 /* SKSHWinAnimation.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SKSHWinAnimation.fsh; sourceTree = "<group>"; };
+		ADC2FC8624720D9200FBA6E3 /* SKShaderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKShaderHelper.swift; sourceTree = "<group>"; };
+		ADC2FC8A24721B0A00FBA6E3 /* Shader+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shader+Extensions.swift"; sourceTree = "<group>"; };
+		ADC2FC8E247228A600FBA6E3 /* SKSHEmpty.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SKSHEmpty.fsh; sourceTree = "<group>"; };
+		ADC4C14C243D783A000BC24F /* SettingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingManager.swift; sourceTree = "<group>"; };
+		ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameLayout+Sample.swift"; sourceTree = "<group>"; };
+		ADE107C423EF18BD008AF715 /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		ADE107C923EF3617008AF715 /* PuzzleSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleSquare.swift; sourceTree = "<group>"; };
+		ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleTriangle.swift; sourceTree = "<group>"; };
+		ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDiamond.swift; sourceTree = "<group>"; };
+		ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleHexagon.swift; sourceTree = "<group>"; };
+		ADE9592023FB0FDA0086A391 /* SceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneController.swift; sourceTree = "<group>"; };
+		ADE9592623FB712A0086A391 /* PuzzleBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleBoard.swift; sourceTree = "<group>"; };
+		ADF3E41B24776C34006E58CB /* MotionIndicatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionIndicatorController.swift; sourceTree = "<group>"; };
+		ADFA6DA3247C5A1A00E2AE14 /* GameRatingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRatingController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD21E86123D5261F00C40D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E88C23D5261F00C40D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E89D23D5261F00C40D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E8CD23D526A300C40D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD02D31924679B1E009288EE /* PickerControl */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D31A24679B1E009288EE /* SKPickerRender.swift */,
+				AD02D31B24679B1E009288EE /* SKPickerTypes.swift */,
+				AD02D31C24679B1E009288EE /* SKPickerGestureRecognizer.swift */,
+				AD02D31D24679B1E009288EE /* SKPicker.swift */,
+				AD02D31E24679B1E009288EE /* SKPicker+extension.swift */,
+			);
+			path = PickerControl;
+			sourceTree = "<group>";
+		};
+		AD09CD3223E64B65006F4C3E /* ThirdPartyExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD09CD3D23E64CCC006F4C3E /* CGFloat+Extensions.swift */,
+				AD09CD3B23E64CCC006F4C3E /* CGPoint+Extensions.swift */,
+				AD09CD3523E64CCB006F4C3E /* CGVector+Extensions.swift */,
+				AD09CD3C23E64CCC006F4C3E /* Int+Extensions.swift */,
+				AD09CD3423E64CCB006F4C3E /* SKAction+Extensions.swift */,
+				AD09CD3323E64CCB006F4C3E /* SKAction+SpecialEffects.swift */,
+				AD09CD3623E64CCB006F4C3E /* SKColor+Extensions.swift */,
+				AD09CD3723E64CCB006F4C3E /* SKNode+Extensions.swift */,
+				AD09CD3823E64CCB006F4C3E /* SKTAudio.swift */,
+				AD09CD3923E64CCC006F4C3E /* SKTEffects.swift */,
+				AD09CD3A23E64CCC006F4C3E /* SKTTimingFunctions.swift */,
+				ADC2FC8A24721B0A00FBA6E3 /* Shader+Extensions.swift */,
+			);
+			path = ThirdPartyExtensions;
+			sourceTree = "<group>";
+		};
+		AD21E85623D5261D00C40D09 = {
+			isa = PBXGroup;
+			children = (
+				AD21E85B23D5261D00C40D09 /* BubbleTile2 Shared */,
+				AD21E86623D5261F00C40D09 /* BubbleTile2 iOS */,
+				AD21E87823D5261F00C40D09 /* BubbleTile2 watchOS App */,
+				AD21E88523D5261F00C40D09 /* BubbleTile2 watchOS App Extension */,
+				AD21E89023D5261F00C40D09 /* BubbleTile2 tvOS */,
+				AD21E8A123D5261F00C40D09 /* BubbleTile2 macOS */,
+				AD21E8D123D526A300C40D09 /* BubbleTile2Tests */,
+				AD21E86523D5261F00C40D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD21E85B23D5261D00C40D09 /* BubbleTile2 Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADC2FC812471FBED00FBA6E3 /* Shaders */,
+				AD02D31924679B1E009288EE /* PickerControl */,
+				AD09CD3223E64B65006F4C3E /* ThirdPartyExtensions */,
+				AD21E91F23D52F5C00C40D09 /* Controller */,
+				AD21E92C23D52F5C00C40D09 /* Data */,
+				AD21E92323D52F5C00C40D09 /* Protocol */,
+				AD21E92623D52F5C00C40D09 /* STL */,
+				AD21E92B23D52F5C00C40D09 /* UI */,
+				AD21E85F23D5261F00C40D09 /* Assets.xcassets */,
+				AD21E8DA23D52D0300C40D09 /* BubbleTile2 watchOS App-Bridging-Header.h */,
+			);
+			path = "BubbleTile2 Shared";
+			sourceTree = "<group>";
+		};
+		AD21E86523D5261F00C40D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E86423D5261F00C40D09 /* BubbleTile2.app */,
+				AD21E88F23D5261F00C40D09 /* BubbleTile2.app */,
+				AD21E8A023D5261F00C40D09 /* BubbleTile2.app */,
+				AD21E8D023D526A300C40D09 /* BubbleTile2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD21E86623D5261F00C40D09 /* BubbleTile2 iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E86723D5261F00C40D09 /* AppDelegate.swift */,
+				AD21E86923D5261F00C40D09 /* GameViewController.swift */,
+				AD21E86B23D5261F00C40D09 /* Main.storyboard */,
+				AD21E86E23D5261F00C40D09 /* LaunchScreen.storyboard */,
+				AD21E87123D5261F00C40D09 /* Info.plist */,
+			);
+			path = "BubbleTile2 iOS";
+			sourceTree = "<group>";
+		};
+		AD21E87823D5261F00C40D09 /* BubbleTile2 watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E87923D5261F00C40D09 /* Interface.storyboard */,
+				AD21E87C23D5261F00C40D09 /* Info.plist */,
+			);
+			path = "BubbleTile2 watchOS App";
+			sourceTree = "<group>";
+		};
+		AD21E88523D5261F00C40D09 /* BubbleTile2 watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E88623D5261F00C40D09 /* InterfaceController.swift */,
+				AD21E88823D5261F00C40D09 /* ExtensionDelegate.swift */,
+				AD21E88A23D5261F00C40D09 /* Info.plist */,
+			);
+			path = "BubbleTile2 watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		AD21E89023D5261F00C40D09 /* BubbleTile2 tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E89123D5261F00C40D09 /* AppDelegate.swift */,
+				AD21E89323D5261F00C40D09 /* GameViewController.swift */,
+				AD21E89523D5261F00C40D09 /* Main.storyboard */,
+				AD21E89823D5261F00C40D09 /* LaunchScreen.storyboard */,
+				AD21E89B23D5261F00C40D09 /* Info.plist */,
+			);
+			path = "BubbleTile2 tvOS";
+			sourceTree = "<group>";
+		};
+		AD21E8A123D5261F00C40D09 /* BubbleTile2 macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA50171249C1F8D00465634 /* BubbleTile2.entitlements */,
+				AD21E8A223D5261F00C40D09 /* AppDelegate.swift */,
+				AD21E8A423D5261F00C40D09 /* GameViewController.swift */,
+				AD21E8A623D5261F00C40D09 /* Main.storyboard */,
+				AD21E8A923D5261F00C40D09 /* Info.plist */,
+			);
+			path = "BubbleTile2 macOS";
+			sourceTree = "<group>";
+		};
+		AD21E8D123D526A300C40D09 /* BubbleTile2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5EC6C923F258B600406E7A /* SquarePuzzleShaffleTests.swift */,
+				AD5EC6C723F2551200406E7A /* TrianglePuzzleShaffleTests.swift */,
+				AD5EC6C523F2500800406E7A /* DiamondPuzzleShaffleTests.swift */,
+				AD21E98F23D5311D00C40D09 /* BubbleDiamondPuzzleTests.swift */,
+				AD21E99023D5311D00C40D09 /* BubbleHexagonPuzzleTests.swift */,
+				AD21E98A23D5311C00C40D09 /* BubbleSquarePuzzleTests.swift */,
+				AD21E98E23D5311D00C40D09 /* BubbleTrianglePuzzleTests.swift */,
+				AD21E98C23D5311D00C40D09 /* HexagonPuzzleShaffleTests.swift */,
+				AD21E8D423D526A300C40D09 /* Info.plist */,
+				AD21E99923D5328A00C40D09 /* BubbleTile2macOS.xctestplan */,
+			);
+			path = BubbleTile2Tests;
+			sourceTree = "<group>";
+		};
+		AD21E91F23D52F5C00C40D09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA6DA3247C5A1A00E2AE14 /* GameRatingController.swift */,
+				AD21E92023D52F5C00C40D09 /* GameController.swift */,
+				AD21E92123D52F5C00C40D09 /* UndoManager.swift */,
+				AD21E92223D52F5C00C40D09 /* ShaffleManager.swift */,
+				ADCAFDA024365ED40012E4ED /* GameSettingManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD21E92323D52F5C00C40D09 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AD09CD6A23E6549E006F4C3E /* IPuzzleScene.swift */,
+				AD57BB6C2441106D0003A336 /* IEventHandler.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AD21E92623D52F5C00C40D09 /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				AD21E92723D52F5C00C40D09 /* CStack.swift */,
+				AD21E92823D52F5C00C40D09 /* CSingleLList.swift */,
+				AD21E92923D52F5C00C40D09 /* CQueue.swift */,
+				AD21E92A23D52F5C00C40D09 /* SingleLLNode.swift */,
+			);
+			path = STL;
+			sourceTree = "<group>";
+		};
+		AD21E92B23D52F5C00C40D09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD6A2A07247A29FC00372BA1 /* WinAnimationController.swift */,
+				ADCF1BA82469A1B1000E25AC /* GameLayout+Sample.swift */,
+				AD6BA0C0240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift */,
+				AD6BA0C2240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift */,
+				AD6BA0C1240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift */,
+				AD6BA0BB240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift */,
+				AD5D0B4F240206B90089170F /* PuzzleChip+Extension.swift */,
+				AD631CDE2400F55C00383766 /* PuzzleChip.swift */,
+				AD631CD92400D38100383766 /* GameLayout.swift */,
+				AD221F0023FCDE47009B38E6 /* PuzzleBoard+Extension.swift */,
+				AD09CD6F23E69A18006F4C3E /* GameScene+Extensions.swift */,
+				AD21E85E23D5261D00C40D09 /* GameScene.swift */,
+				AD21E85C23D5261D00C40D09 /* Actions.sks */,
+				AD21E8E023D52D0400C40D09 /* BkTileGreen.sks */,
+				ADE9592023FB0FDA0086A391 /* SceneController.swift */,
+				ADE9592623FB712A0086A391 /* PuzzleBoard.swift */,
+				AD9B568823FE2CDF009F2A2F /* RenderHelper.swift */,
+				ADC4C14C243D783A000BC24F /* SettingScene.swift */,
+				ADA9EC6C243ECD9900D28B30 /* TBButton.swift */,
+				AD96D52224423F8E007C2218 /* ToolBarPanel.swift */,
+				AD8071F1245B93CC00FAE003 /* Assets.xcassets */,
+				AD807202245B990C00FAE003 /* BkTileRed.sks */,
+				ADBAAA482468AD4400D34BAD /* StringHelper.swift */,
+				AD7F6C7F24742A34005748DC /* StepSign.swift */,
+				AD7F6C8324742ACC005748DC /* LayoutSign.swift */,
+				ADF3E41B24776C34006E58CB /* MotionIndicatorController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD21E92C23D52F5C00C40D09 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ADE107CB23EF3617008AF715 /* PuzzleDiamond.swift */,
+				ADE107CC23EF3618008AF715 /* PuzzleHexagon.swift */,
+				ADE107C923EF3617008AF715 /* PuzzleSquare.swift */,
+				ADE107CA23EF3617008AF715 /* PuzzleTriangle.swift */,
+				ADE107C423EF18BD008AF715 /* Puzzle.swift */,
+				AD21E92D23D52F5C00C40D09 /* TrianglePuzzleHelper.swift */,
+				AD21E92E23D52F5C00C40D09 /* HexagonPuzzleHelper.swift */,
+				AD21E92F23D52F5C00C40D09 /* PuzzleHelper.swift */,
+				AD21E93023D52F5C00C40D09 /* ChipData.swift */,
+				AD21E93123D52F5C00C40D09 /* GameConstants.swift */,
+				AD21E93223D52F5C00C40D09 /* DiamondPuzzleHelper.swift */,
+				AD21E93323D52F5C00C40D09 /* SquarePuzzleHelper.swift */,
+				AD21E93423D52F5C00C40D09 /* GamePlayStep.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ADC2FC812471FBED00FBA6E3 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F6C7B2474265A005748DC /* SKSHSemiOpque.fsh */,
+				AD08419224739C4000BF384E /* SKSHShiftAnimation.fsh */,
+				AD08418E24738E8000BF384E /* SKSHEmboss.fsh */,
+				AD08418A2473402400BF384E /* SKSHBlackToGray.fsh */,
+				ADC2FC822471FCE100FBA6E3 /* SKSHWinAnimation.fsh */,
+				ADC2FC8624720D9200FBA6E3 /* SKShaderHelper.swift */,
+				ADC2FC8E247228A600FBA6E3 /* SKSHEmpty.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD21E86323D5261F00C40D09 /* BubbleTile2 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21E8C323D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 iOS" */;
+			buildPhases = (
+				AD21E86023D5261F00C40D09 /* Sources */,
+				AD21E86123D5261F00C40D09 /* Frameworks */,
+				AD21E86223D5261F00C40D09 /* Resources */,
+				AD21E8C223D5261F00C40D09 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleTile2 iOS";
+			productName = "BubbleTile2 iOS";
+			productReference = AD21E86423D5261F00C40D09 /* BubbleTile2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD21E88E23D5261F00C40D09 /* BubbleTile2 tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21E8C623D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 tvOS" */;
+			buildPhases = (
+				AD21E88B23D5261F00C40D09 /* Sources */,
+				AD21E88C23D5261F00C40D09 /* Frameworks */,
+				AD21E88D23D5261F00C40D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleTile2 tvOS";
+			productName = "BubbleTile2 tvOS";
+			productReference = AD21E88F23D5261F00C40D09 /* BubbleTile2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD21E89F23D5261F00C40D09 /* BubbleTile2 macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21E8C923D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 macOS" */;
+			buildPhases = (
+				AD21E89C23D5261F00C40D09 /* Sources */,
+				AD21E89D23D5261F00C40D09 /* Frameworks */,
+				AD21E89E23D5261F00C40D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleTile2 macOS";
+			productName = "BubbleTile2 macOS";
+			productReference = AD21E8A023D5261F00C40D09 /* BubbleTile2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD21E8CF23D526A300C40D09 /* BubbleTile2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21E8D723D526A300C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2Tests" */;
+			buildPhases = (
+				AD21E8CC23D526A300C40D09 /* Sources */,
+				AD21E8CD23D526A300C40D09 /* Frameworks */,
+				AD21E8CE23D526A300C40D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD21E8D623D526A300C40D09 /* PBXTargetDependency */,
+			);
+			name = BubbleTile2Tests;
+			productName = BubbleTile2Tests;
+			productReference = AD21E8D023D526A300C40D09 /* BubbleTile2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD21E85723D5261D00C40D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = xgadget;
+				TargetAttributes = {
+					AD21E86323D5261F00C40D09 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AD21E88E23D5261F00C40D09 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AD21E89F23D5261F00C40D09 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AD21E8CF23D526A300C40D09 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AD21E89F23D5261F00C40D09;
+					};
+				};
+			};
+			buildConfigurationList = AD21E85A23D5261D00C40D09 /* Build configuration list for PBXProject "BubbleTile2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD21E85623D5261D00C40D09;
+			productRefGroup = AD21E86523D5261F00C40D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD21E86323D5261F00C40D09 /* BubbleTile2 iOS */,
+				AD21E88E23D5261F00C40D09 /* BubbleTile2 tvOS */,
+				AD21E89F23D5261F00C40D09 /* BubbleTile2 macOS */,
+				AD21E8CF23D526A300C40D09 /* BubbleTile2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD21E86223D5261F00C40D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD08419324739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */,
+				AD7F6C7C2474265A005748DC /* SKSHSemiOpque.fsh in Resources */,
+				AD807203245B990C00FAE003 /* BkTileRed.sks in Resources */,
+				AD08418B2473402400BF384E /* SKSHBlackToGray.fsh in Resources */,
+				AD21E86D23D5261F00C40D09 /* Main.storyboard in Resources */,
+				AD08418F24738E8000BF384E /* SKSHEmboss.fsh in Resources */,
+				AD21E8AA23D5261F00C40D09 /* Actions.sks in Resources */,
+				ADC2FC8F247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */,
+				AD8071F3245B93CC00FAE003 /* Assets.xcassets in Resources */,
+				ADC2FC832471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */,
+				AD21E90023D52D0400C40D09 /* BkTileGreen.sks in Resources */,
+				AD21E87023D5261F00C40D09 /* LaunchScreen.storyboard in Resources */,
+				AD21E8B523D5261F00C40D09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E88D23D5261F00C40D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC2FC90247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */,
+				AD08419424739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */,
+				AD21E89723D5261F00C40D09 /* Main.storyboard in Resources */,
+				AD21E8AB23D5261F00C40D09 /* Actions.sks in Resources */,
+				AD807204245B990C00FAE003 /* BkTileRed.sks in Resources */,
+				AD7F6C7D24742667005748DC /* SKSHSemiOpque.fsh in Resources */,
+				AD08418C2473402400BF384E /* SKSHBlackToGray.fsh in Resources */,
+				AD08419024738E8000BF384E /* SKSHEmboss.fsh in Resources */,
+				AD21E90323D52D0400C40D09 /* BkTileGreen.sks in Resources */,
+				ADC2FC842471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */,
+				AD21E89A23D5261F00C40D09 /* LaunchScreen.storyboard in Resources */,
+				AD21E8B723D5261F00C40D09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E89E23D5261F00C40D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC2FC91247228A600FBA6E3 /* SKSHEmpty.fsh in Resources */,
+				ADC2FC852471FCE100FBA6E3 /* SKSHWinAnimation.fsh in Resources */,
+				AD21E8A823D5261F00C40D09 /* Main.storyboard in Resources */,
+				AD807205245B990C00FAE003 /* BkTileRed.sks in Resources */,
+				AD7F6C7E24742668005748DC /* SKSHSemiOpque.fsh in Resources */,
+				AD08419124738E8000BF384E /* SKSHEmboss.fsh in Resources */,
+				AD21E90423D52D0400C40D09 /* BkTileGreen.sks in Resources */,
+				AD21E8B823D5261F00C40D09 /* Assets.xcassets in Resources */,
+				AD08419524739C4000BF384E /* SKSHShiftAnimation.fsh in Resources */,
+				AD08418D2473402400BF384E /* SKSHBlackToGray.fsh in Resources */,
+				AD21E8AC23D5261F00C40D09 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E8CE23D526A300C40D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807206245B9B6F00FAE003 /* BkTileRed.sks in Resources */,
+				AD21E90523D52D0400C40D09 /* BkTileGreen.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD21E86023D5261F00C40D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE9592123FB0FDA0086A391 /* SceneController.swift in Sources */,
+				AD09CD4A23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */,
+				AD21E8B123D5261F00C40D09 /* GameScene.swift in Sources */,
+				AD09CD5A23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */,
+				ADE9592723FB712A0086A391 /* PuzzleBoard.swift in Sources */,
+				ADFA6DA4247C5A1A00E2AE14 /* GameRatingController.swift in Sources */,
+				AD9B568923FE2CDF009F2A2F /* RenderHelper.swift in Sources */,
+				AD21E93523D52F5C00C40D09 /* GameController.swift in Sources */,
+				AD09CD4E23E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */,
+				AD21E86A23D5261F00C40D09 /* GameViewController.swift in Sources */,
+				AD21E95D23D52F5C00C40D09 /* SingleLLNode.swift in Sources */,
+				AD09CD3E23E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */,
+				AD7F6C8424742ACC005748DC /* LayoutSign.swift in Sources */,
+				ADE107D923EF3618008AF715 /* PuzzleHexagon.swift in Sources */,
+				AD21E96C23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */,
+				AD21E94E23D52F5C00C40D09 /* CStack.swift in Sources */,
+				AD7F6C8024742A34005748DC /* StepSign.swift in Sources */,
+				ADE107CD23EF3618008AF715 /* PuzzleSquare.swift in Sources */,
+				AD09CD4223E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */,
+				AD21E98023D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */,
+				AD02D32324679B1E009288EE /* SKPickerTypes.swift in Sources */,
+				ADE107C523EF18BD008AF715 /* Puzzle.swift in Sources */,
+				AD09CD5223E64CCC006F4C3E /* SKTAudio.swift in Sources */,
+				AD09CD6623E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */,
+				AD21E97123D52F5C00C40D09 /* ChipData.swift in Sources */,
+				AD21E96223D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */,
+				AD09CD6B23E6549E006F4C3E /* IPuzzleScene.swift in Sources */,
+				AD6A2A08247A29FC00372BA1 /* WinAnimationController.swift in Sources */,
+				AD96D52324423F8E007C2218 /* ToolBarPanel.swift in Sources */,
+				ADF3E41C24776C34006E58CB /* MotionIndicatorController.swift in Sources */,
+				ADCF1BA92469A1B1000E25AC /* GameLayout+Sample.swift in Sources */,
+				AD09CD5E23E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */,
+				ADE107D523EF3618008AF715 /* PuzzleDiamond.swift in Sources */,
+				AD21E93F23D52F5C00C40D09 /* ShaffleManager.swift in Sources */,
+				AD6BA0C7240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */,
+				AD02D32724679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */,
+				ADE107D123EF3618008AF715 /* PuzzleTriangle.swift in Sources */,
+				AD57BB6D2441106D0003A336 /* IEventHandler.swift in Sources */,
+				AD21E95823D52F5C00C40D09 /* CQueue.swift in Sources */,
+				AD09CD6223E64CCC006F4C3E /* Int+Extensions.swift in Sources */,
+				AD5D0B50240206B90089170F /* PuzzleChip+Extension.swift in Sources */,
+				ADC2FC8724720D9200FBA6E3 /* SKShaderHelper.swift in Sources */,
+				AD02D31F24679B1E009288EE /* SKPickerRender.swift in Sources */,
+				AD6BA0C3240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */,
+				AD02D32B24679B1E009288EE /* SKPicker.swift in Sources */,
+				AD21E97B23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */,
+				ADA9EC6D243ECD9900D28B30 /* TBButton.swift in Sources */,
+				ADBAAA492468AD4400D34BAD /* StringHelper.swift in Sources */,
+				AD21E95323D52F5C00C40D09 /* CSingleLList.swift in Sources */,
+				AD6BA0CB240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */,
+				AD09CD7023E69A18006F4C3E /* GameScene+Extensions.swift in Sources */,
+				ADC4C14D243D783A000BC24F /* SettingScene.swift in Sources */,
+				AD09CD5623E64CCC006F4C3E /* SKTEffects.swift in Sources */,
+				ADCAFDA124365ED40012E4ED /* GameSettingManager.swift in Sources */,
+				AD21E96723D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */,
+				AD21E86823D5261F00C40D09 /* AppDelegate.swift in Sources */,
+				AD631CDF2400F55C00383766 /* PuzzleChip.swift in Sources */,
+				AD09CD4623E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */,
+				AD221F0123FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */,
+				ADC2FC8B24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */,
+				AD02D32F24679B1E009288EE /* SKPicker+extension.swift in Sources */,
+				AD21E98523D52F5C00C40D09 /* GamePlayStep.swift in Sources */,
+				AD21E93A23D52F5C00C40D09 /* UndoManager.swift in Sources */,
+				AD21E97623D52F5C00C40D09 /* GameConstants.swift in Sources */,
+				AD631CDA2400D38100383766 /* GameLayout.swift in Sources */,
+				AD6BA0BC240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E88B23D5261F00C40D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE9592223FB0FDA0086A391 /* SceneController.swift in Sources */,
+				AD09CD4B23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */,
+				AD21E8B323D5261F00C40D09 /* GameScene.swift in Sources */,
+				AD09CD5B23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */,
+				ADE9592823FB712A0086A391 /* PuzzleBoard.swift in Sources */,
+				ADFA6DA5247C5A1A00E2AE14 /* GameRatingController.swift in Sources */,
+				AD9B568A23FE2CDF009F2A2F /* RenderHelper.swift in Sources */,
+				AD21E93723D52F5C00C40D09 /* GameController.swift in Sources */,
+				AD09CD4F23E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */,
+				AD21E89423D5261F00C40D09 /* GameViewController.swift in Sources */,
+				AD21E95F23D52F5C00C40D09 /* SingleLLNode.swift in Sources */,
+				AD09CD3F23E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */,
+				AD7F6C8524742ACC005748DC /* LayoutSign.swift in Sources */,
+				ADE107DA23EF3618008AF715 /* PuzzleHexagon.swift in Sources */,
+				AD21E96E23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */,
+				AD21E95023D52F5C00C40D09 /* CStack.swift in Sources */,
+				AD7F6C8124742A34005748DC /* StepSign.swift in Sources */,
+				ADE107CE23EF3618008AF715 /* PuzzleSquare.swift in Sources */,
+				AD09CD4323E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */,
+				AD21E98223D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */,
+				AD02D32424679B1E009288EE /* SKPickerTypes.swift in Sources */,
+				ADE107C623EF2411008AF715 /* Puzzle.swift in Sources */,
+				AD09CD5323E64CCC006F4C3E /* SKTAudio.swift in Sources */,
+				AD09CD6723E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */,
+				AD21E97323D52F5C00C40D09 /* ChipData.swift in Sources */,
+				AD21E96423D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */,
+				AD09CD6C23E6549E006F4C3E /* IPuzzleScene.swift in Sources */,
+				AD6A2A09247A29FC00372BA1 /* WinAnimationController.swift in Sources */,
+				AD96D52424423F8E007C2218 /* ToolBarPanel.swift in Sources */,
+				ADF3E41D24776C34006E58CB /* MotionIndicatorController.swift in Sources */,
+				ADCF1BAA2469A23A000E25AC /* GameLayout+Sample.swift in Sources */,
+				AD09CD5F23E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */,
+				ADE107D623EF3618008AF715 /* PuzzleDiamond.swift in Sources */,
+				AD21E94123D52F5C00C40D09 /* ShaffleManager.swift in Sources */,
+				AD6BA0C8240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */,
+				AD02D32824679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */,
+				ADE107D223EF3618008AF715 /* PuzzleTriangle.swift in Sources */,
+				AD57BB6E2441106D0003A336 /* IEventHandler.swift in Sources */,
+				AD21E95A23D52F5C00C40D09 /* CQueue.swift in Sources */,
+				AD09CD6323E64CCC006F4C3E /* Int+Extensions.swift in Sources */,
+				AD5D0B512402083B0089170F /* PuzzleChip+Extension.swift in Sources */,
+				ADC2FC8824720D9200FBA6E3 /* SKShaderHelper.swift in Sources */,
+				AD02D32024679B1E009288EE /* SKPickerRender.swift in Sources */,
+				AD6BA0C4240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */,
+				AD02D32C24679B1E009288EE /* SKPicker.swift in Sources */,
+				AD21E97D23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */,
+				ADA9EC6E243ECD9900D28B30 /* TBButton.swift in Sources */,
+				ADBAAA4A2468AD4400D34BAD /* StringHelper.swift in Sources */,
+				AD21E95523D52F5C00C40D09 /* CSingleLList.swift in Sources */,
+				AD6BA0CC240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */,
+				AD09CD7123E69A18006F4C3E /* GameScene+Extensions.swift in Sources */,
+				ADC4C14E243D783A000BC24F /* SettingScene.swift in Sources */,
+				AD09CD5723E64CCC006F4C3E /* SKTEffects.swift in Sources */,
+				ADCAFDA224365ED40012E4ED /* GameSettingManager.swift in Sources */,
+				AD21E96923D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */,
+				AD21E89223D5261F00C40D09 /* AppDelegate.swift in Sources */,
+				AD631CE02400F55F00383766 /* PuzzleChip.swift in Sources */,
+				AD09CD4723E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */,
+				AD221F0223FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */,
+				ADC2FC8C24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */,
+				AD02D33024679B1E009288EE /* SKPicker+extension.swift in Sources */,
+				AD21E98723D52F5C00C40D09 /* GamePlayStep.swift in Sources */,
+				AD21E93C23D52F5C00C40D09 /* UndoManager.swift in Sources */,
+				AD21E97823D52F5C00C40D09 /* GameConstants.swift in Sources */,
+				AD631CDB2400F55000383766 /* GameLayout.swift in Sources */,
+				AD6BA0BD240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E89C23D5261F00C40D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE9592323FB0FDA0086A391 /* SceneController.swift in Sources */,
+				AD09CD4C23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */,
+				AD21E8B423D5261F00C40D09 /* GameScene.swift in Sources */,
+				AD09CD5C23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */,
+				ADE9592923FB712A0086A391 /* PuzzleBoard.swift in Sources */,
+				ADFA6DA6247C5A1A00E2AE14 /* GameRatingController.swift in Sources */,
+				AD9B568B23FE2CDF009F2A2F /* RenderHelper.swift in Sources */,
+				AD21E93823D52F5C00C40D09 /* GameController.swift in Sources */,
+				AD09CD5023E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */,
+				AD21E8A523D5261F00C40D09 /* GameViewController.swift in Sources */,
+				AD21E96023D52F5C00C40D09 /* SingleLLNode.swift in Sources */,
+				AD09CD4023E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */,
+				AD7F6C8624742ACC005748DC /* LayoutSign.swift in Sources */,
+				ADE107DB23EF3618008AF715 /* PuzzleHexagon.swift in Sources */,
+				AD21E96F23D52F5C00C40D09 /* PuzzleHelper.swift in Sources */,
+				AD21E95123D52F5C00C40D09 /* CStack.swift in Sources */,
+				AD7F6C8224742A34005748DC /* StepSign.swift in Sources */,
+				ADE107CF23EF3618008AF715 /* PuzzleSquare.swift in Sources */,
+				AD09CD4423E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */,
+				AD21E98323D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */,
+				AD02D32524679B1E009288EE /* SKPickerTypes.swift in Sources */,
+				ADE107C723EF2411008AF715 /* Puzzle.swift in Sources */,
+				AD09CD5423E64CCC006F4C3E /* SKTAudio.swift in Sources */,
+				AD09CD6823E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */,
+				AD21E97423D52F5C00C40D09 /* ChipData.swift in Sources */,
+				AD21E96523D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */,
+				AD09CD6D23E6549E006F4C3E /* IPuzzleScene.swift in Sources */,
+				AD6A2A0A247A29FC00372BA1 /* WinAnimationController.swift in Sources */,
+				AD96D52524423F8E007C2218 /* ToolBarPanel.swift in Sources */,
+				ADF3E41E24776C34006E58CB /* MotionIndicatorController.swift in Sources */,
+				ADCF1BAB2469A23B000E25AC /* GameLayout+Sample.swift in Sources */,
+				AD09CD6023E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */,
+				ADE107D723EF3618008AF715 /* PuzzleDiamond.swift in Sources */,
+				AD21E94223D52F5C00C40D09 /* ShaffleManager.swift in Sources */,
+				AD6BA0C9240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */,
+				AD02D32924679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */,
+				ADE107D323EF3618008AF715 /* PuzzleTriangle.swift in Sources */,
+				AD57BB6F2441106D0003A336 /* IEventHandler.swift in Sources */,
+				AD21E95B23D52F5C00C40D09 /* CQueue.swift in Sources */,
+				AD09CD6423E64CCC006F4C3E /* Int+Extensions.swift in Sources */,
+				AD5D0B522402083C0089170F /* PuzzleChip+Extension.swift in Sources */,
+				ADC2FC8924720D9200FBA6E3 /* SKShaderHelper.swift in Sources */,
+				AD02D32124679B1E009288EE /* SKPickerRender.swift in Sources */,
+				AD6BA0C5240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */,
+				AD02D32D24679B1E009288EE /* SKPicker.swift in Sources */,
+				AD21E97E23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */,
+				ADA9EC6F243ECD9900D28B30 /* TBButton.swift in Sources */,
+				ADBAAA4B2468AD4400D34BAD /* StringHelper.swift in Sources */,
+				AD21E95623D52F5C00C40D09 /* CSingleLList.swift in Sources */,
+				AD6BA0CD240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */,
+				AD09CD7223E69A18006F4C3E /* GameScene+Extensions.swift in Sources */,
+				ADC4C14F243D783A000BC24F /* SettingScene.swift in Sources */,
+				AD09CD5823E64CCC006F4C3E /* SKTEffects.swift in Sources */,
+				ADCAFDA324365ED40012E4ED /* GameSettingManager.swift in Sources */,
+				AD21E96A23D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */,
+				AD21E8A323D5261F00C40D09 /* AppDelegate.swift in Sources */,
+				AD631CE12400F56000383766 /* PuzzleChip.swift in Sources */,
+				AD09CD4823E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */,
+				AD221F0323FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */,
+				ADC2FC8D24721B0A00FBA6E3 /* Shader+Extensions.swift in Sources */,
+				AD02D33124679B1E009288EE /* SKPicker+extension.swift in Sources */,
+				AD21E98823D52F5C00C40D09 /* GamePlayStep.swift in Sources */,
+				AD21E93D23D52F5C00C40D09 /* UndoManager.swift in Sources */,
+				AD21E97923D52F5C00C40D09 /* GameConstants.swift in Sources */,
+				AD631CDC2400F55100383766 /* GameLayout.swift in Sources */,
+				AD6BA0BE240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21E8CC23D526A300C40D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21E99123D5311D00C40D09 /* BubbleSquarePuzzleTests.swift in Sources */,
+				AD21E99723D5311D00C40D09 /* BubbleHexagonPuzzleTests.swift in Sources */,
+				ADE9592423FB0FDA0086A391 /* SceneController.swift in Sources */,
+				AD21E99523D5311D00C40D09 /* BubbleTrianglePuzzleTests.swift in Sources */,
+				AD21E95223D52F5C00C40D09 /* CStack.swift in Sources */,
+				ADE107D023EF3618008AF715 /* PuzzleSquare.swift in Sources */,
+				ADE107DD23EF3E7C008AF715 /* GameScene+Extensions.swift in Sources */,
+				AD09CD6523E64CCC006F4C3E /* Int+Extensions.swift in Sources */,
+				AD21E95723D52F5C00C40D09 /* CSingleLList.swift in Sources */,
+				AD21E97023D52F5C00C40D09 /* PuzzleHelper.swift in Sources */,
+				ADE107D423EF3618008AF715 /* PuzzleTriangle.swift in Sources */,
+				AD96D52624423F8E007C2218 /* ToolBarPanel.swift in Sources */,
+				AD221F0423FCDE48009B38E6 /* PuzzleBoard+Extension.swift in Sources */,
+				ADE107DE23EF3ED3008AF715 /* GameScene.swift in Sources */,
+				AD21E96623D52F5C00C40D09 /* TrianglePuzzleHelper.swift in Sources */,
+				AD5EC6C623F2500800406E7A /* DiamondPuzzleShaffleTests.swift in Sources */,
+				AD6BA0C6240A2EE400C09A5C /* PuzzleBoard+Extension+Diamond.swift in Sources */,
+				AD09CD4923E64CCC006F4C3E /* CGVector+Extensions.swift in Sources */,
+				AD09CD6923E64CCC006F4C3E /* CGFloat+Extensions.swift in Sources */,
+				AD02D32624679B1E009288EE /* SKPickerTypes.swift in Sources */,
+				AD21E97F23D52F5C00C40D09 /* DiamondPuzzleHelper.swift in Sources */,
+				AD09CD4523E64CCC006F4C3E /* SKAction+Extensions.swift in Sources */,
+				AD57BB702441106D0003A336 /* IEventHandler.swift in Sources */,
+				AD21E97A23D52F5C00C40D09 /* GameConstants.swift in Sources */,
+				AD5EC6CA23F258B600406E7A /* SquarePuzzleShaffleTests.swift in Sources */,
+				AD6BA0CA240A2EE400C09A5C /* PuzzleBoard+Extension+Triangle.swift in Sources */,
+				ADE107C823EF2412008AF715 /* Puzzle.swift in Sources */,
+				AD09CD5D23E64CCC006F4C3E /* SKTTimingFunctions.swift in Sources */,
+				ADE9592A23FB712A0086A391 /* PuzzleBoard.swift in Sources */,
+				AD09CD4D23E64CCC006F4C3E /* SKColor+Extensions.swift in Sources */,
+				AD6BA0BF240A2E0900C09A5C /* PuzzleBoard+Extension+Square.swift in Sources */,
+				AD21E95C23D52F5C00C40D09 /* CQueue.swift in Sources */,
+				AD21E96123D52F5C00C40D09 /* SingleLLNode.swift in Sources */,
+				AD6BA0CE240A2EE400C09A5C /* PuzzleBoard+Extension+Hexagon.swift in Sources */,
+				AD21E94323D52F5C00C40D09 /* ShaffleManager.swift in Sources */,
+				AD09CD5123E64CCC006F4C3E /* SKNode+Extensions.swift in Sources */,
+				AD9B568C23FE2CDF009F2A2F /* RenderHelper.swift in Sources */,
+				AD21E93E23D52F5C00C40D09 /* UndoManager.swift in Sources */,
+				AD02D32224679B1E009288EE /* SKPickerRender.swift in Sources */,
+				AD02D32A24679B1E009288EE /* SKPickerGestureRecognizer.swift in Sources */,
+				AD21E99623D5311D00C40D09 /* BubbleDiamondPuzzleTests.swift in Sources */,
+				ADCF1BAC2469A23B000E25AC /* GameLayout+Sample.swift in Sources */,
+				AD02D33224679B1E009288EE /* SKPicker+extension.swift in Sources */,
+				AD21E99323D5311D00C40D09 /* HexagonPuzzleShaffleTests.swift in Sources */,
+				ADE107DC23EF3618008AF715 /* PuzzleHexagon.swift in Sources */,
+				AD631CDD2400F55200383766 /* GameLayout.swift in Sources */,
+				AD5EC6C823F2551200406E7A /* TrianglePuzzleShaffleTests.swift in Sources */,
+				AD21E98923D52F5C00C40D09 /* GamePlayStep.swift in Sources */,
+				AD09CD5523E64CCC006F4C3E /* SKTAudio.swift in Sources */,
+				AD09CD4123E64CCC006F4C3E /* SKAction+SpecialEffects.swift in Sources */,
+				ADCAFDA424365ED40012E4ED /* GameSettingManager.swift in Sources */,
+				AD09CD6123E64CCC006F4C3E /* CGPoint+Extensions.swift in Sources */,
+				AD09CD6E23E6549E006F4C3E /* IPuzzleScene.swift in Sources */,
+				AD631CE22400F56000383766 /* PuzzleChip.swift in Sources */,
+				ADE107D823EF3618008AF715 /* PuzzleDiamond.swift in Sources */,
+				AD5D0B532402083C0089170F /* PuzzleChip+Extension.swift in Sources */,
+				AD21E96B23D52F5C00C40D09 /* HexagonPuzzleHelper.swift in Sources */,
+				AD21E93923D52F5C00C40D09 /* GameController.swift in Sources */,
+				AD09CD5923E64CCC006F4C3E /* SKTEffects.swift in Sources */,
+				AD02D32E24679B1E009288EE /* SKPicker.swift in Sources */,
+				AD21E98423D52F5C00C40D09 /* SquarePuzzleHelper.swift in Sources */,
+				AD21E97523D52F5C00C40D09 /* ChipData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD21E8D623D526A300C40D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD21E89F23D5261F00C40D09 /* BubbleTile2 macOS */;
+			targetProxy = AD21E8D523D526A300C40D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD21E86B23D5261F00C40D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E86C23D5261F00C40D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21E86E23D5261F00C40D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E86F23D5261F00C40D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21E87923D5261F00C40D09 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E87A23D5261F00C40D09 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21E89523D5261F00C40D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E89623D5261F00C40D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21E89823D5261F00C40D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E89923D5261F00C40D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21E8A623D5261F00C40D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21E8A723D5261F00C40D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD21E8B923D5261F00C40D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD21E8BA23D5261F00C40D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD21E8C423D5261F00C40D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "BubbleTile2 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				PROVISIONING_PROFILE_SPECIFIER = BubbleTile2Dev;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD21E8C523D5261F00C40D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "BubbleTile2 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				PROVISIONING_PROFILE_SPECIFIER = BubbleTile2Dist;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD21E8C723D5261F00C40D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "BubbleTile2 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		AD21E8C823D5261F00C40D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "BubbleTile2 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD21E8CA23D5261F00C40D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BubbleTile2 macOS/BubbleTile2.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_PROFILING_CODE = YES;
+				INFOPLIST_FILE = "BubbleTile2 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD21E8CB23D5261F00C40D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BubbleTile2 macOS/BubbleTile2.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_PROFILING_CODE = YES;
+				INFOPLIST_FILE = "BubbleTile2 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2;
+				PRODUCT_NAME = BubbleTile2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD21E8D823D526A300C40D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = BubbleTile2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTile2.app/Contents/MacOS/BubbleTile2";
+			};
+			name = Debug;
+		};
+		AD21E8D923D526A300C40D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = BubbleTile2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.BubbleTile2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTile2.app/Contents/MacOS/BubbleTile2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD21E85A23D5261D00C40D09 /* Build configuration list for PBXProject "BubbleTile2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21E8B923D5261F00C40D09 /* Debug */,
+				AD21E8BA23D5261F00C40D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21E8C323D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21E8C423D5261F00C40D09 /* Debug */,
+				AD21E8C523D5261F00C40D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21E8C623D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21E8C723D5261F00C40D09 /* Debug */,
+				AD21E8C823D5261F00C40D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21E8C923D5261F00C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2 macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21E8CA23D5261F00C40D09 /* Debug */,
+				AD21E8CB23D5261F00C40D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21E8D723D526A300C40D09 /* Build configuration list for PBXNativeTarget "BubbleTile2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21E8D823D526A300C40D09 /* Debug */,
+				AD21E8D923D526A300C40D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD21E85723D5261D00C40D09 /* Project object */;
+}

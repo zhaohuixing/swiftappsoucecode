@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "41D4725F-3C43-4DBE-A4F7-AF5A45099847",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BubbleTile2.xcodeproj",
+      "identifier" : "AD21E89F23D5261F00C40D09",
+      "name" : "BubbleTile2 macOS"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BubbleTile2.xcodeproj",
+        "identifier" : "AD21E8CF23D526A300C40D09",
+        "name" : "BubbleTile2Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
